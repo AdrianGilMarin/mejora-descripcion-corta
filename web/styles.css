@@ -85,19 +85,6 @@ h2 i {
   color: #1e4a3b;
 }
 
-/* Contacto */
-.contacto p {
-  margin: 0.5rem 0;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.contacto i {
-  width: 28px;
-  color: #2c7a5e;
-}
-
 /* Footer */
 footer {
   text-align: center;
