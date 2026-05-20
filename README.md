@@ -2,7 +2,7 @@
 
 ## ¿Qué hace el proyecto?
 
-Este proyecto consiste en una landing pagina personal que se ejecuta dentro de un contenedor Docker utilizando Nginx como servidor web. La página muestra información profesional de un desarrollador junior incluyendo nombre, presentación, estudios, tecnologías conocidas y objetivos profesionales.
+Este proyecto consiste en una landing page personal que se ejecuta dentro de un contenedor Docker utilizando Nginx como servidor web. La página muestra información profesional de un desarrollador junior incluyendo nombre, presentación, estudios, tecnologías conocidas y objetivos profesionales.
 
 ## ¿Cómo construirlo?
 
@@ -16,7 +16,7 @@ Para construir la imagen Docker del proyecto, ejecuta el siguiente comando en la
 
 docker-compose build
 
-**Paso 3.2:** Si no puede construir la imagen con Docker Compose pudes poner este comando:
+**Paso 3.2:** Si no puede construir la imagen con Docker Compose puedes poner este comando:
 
 docker build -t mi-landing .
 
