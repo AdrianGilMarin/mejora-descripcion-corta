@@ -8,23 +8,36 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#inicio">Inicio</a>
+      <a href="#estudios">Estudios</a>
+      <a href="#tecnologias">Tecnologías</a>
+      <a href="#objetivos">Objetivos</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+  </nav>
   <div class="container">
-    <!-- Nombre y presentación -->
-    <div class="header">
-      <h1>Laura Gómez Sánchez</h1>
-      <p class="subtitulo">Desarrolladora web en formación</p>
-      <p class="presentacion">Apasionada por crear interfaces funcionales y aprender nuevas tecnologías cada día. Buscando mi primera oportunidad en el desarrollo front-end.</p>
+     <div class="header" id="inicio">
+        <img class="perfil-img" 
+             src="https://ui-avatars.com/api/?name=Laura+G&background=2c7a5e&color=fff&size=120&bold=true&rounded=true" 
+             alt="Foto de perfil Laura Gómez">
+        <div class="header-info">
+          <h1>Laura Gómez Sánchez</h1>
+          <p class="subtitulo">Desarrolladora web en formación</p>
+          <p class="presentacion">Apasionada por crear interfaces funcionales y aprender nuevas tecnologías cada día. Buscando mi primera oportunidad en el desarrollo front-end.</p>
+        </div>
     </div>
 
     <!-- Estudios actuales -->
-    <div class="seccion">
+    <div class="seccion" id="estudios">
       <h2> Estudios actuales</h2>
       <p><strong>Grado Superior en Desarrollo de Aplicaciones Web (DAW)</strong><br>IES Caminàs · 2024 - actualidad</p>
       <p> Cursos: JavaScript moderno, UX/UI básico</p>
     </div>
 
     <!-- Tecnologías -->
-    <div class="seccion">
+    <div class="seccion" id="tecnologias">
       <h2> Tecnologías que conozco</h2>
       <div class="techs">
         <span>HTML5</span> <span>CSS3</span> <span>JavaScript</span> <span>Git</span>
@@ -33,7 +46,7 @@
     </div>
 
     <!-- Objetivos -->
-    <div class="seccion">
+    <div class="seccion" id="objetivos">
         <h2> Objetivos profesionales</h2>
         <p>Desarrollar proyectos reales y crecer como front-end.<br>
             Especializarme en React y convertirme en full-stack.<br>
@@ -41,8 +54,8 @@
     </div>
 
     <!-- Contacto (ficticio) -->
-    <div class="seccion">
-      <h2><i class="contacto"></i> Contacto</h2>
+    <div class="seccion" id="contacto">
+      <h2>Contacto</h2>
       <div>
         <p> Correo Electronico: laura.gomez@devportfolio.com</p>
         <p> Numero de telefono: +34 611 22 88 44</p>
