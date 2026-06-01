@@ -7,7 +7,7 @@
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   background: #f0f4f8;
-  color: #1e293b;
+  color: #4368a3;
   line-height: 1.5;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .nav-container a {
-  color: #1e293b;
+  color: #2d4160;
   text-decoration: none;
   font-weight: 500;
   font-size: 0.9rem;
@@ -42,8 +42,8 @@ body {
   transition: all 0.2s ease;
 }
 
-
 /* Contenedor principal */
+
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -54,6 +54,7 @@ body {
 }
 
 /* Header con foto de perfil */
+
 .header {
   text-align: center;
   margin-bottom: 2rem;
@@ -62,6 +63,7 @@ body {
 }
 
 /* Foto de perfil - círculo */
+
 .perfil-img {
   width: 120px;
   height: 120px;
@@ -113,11 +115,12 @@ h2 {
 }
 
 .seccion p {
-  color: #334155;
+  color: #7a8da7;
   margin-bottom: 0.5rem;
 }
 
 /* Tecnologías - USANDO GRID (responsive) */
+
 .techs {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, auto));
@@ -131,19 +134,20 @@ h2 {
   border-radius: 30px;
   font-size: 0.85rem;
   font-weight: 500;
-  color: #1e4a3b;
+  color: #3b9e7d;
   text-align: center;
   transition: all 0.2s ease;
 }
 
 .techs span:hover {
-  background: #2c7a5e;
+  background: #40a983;
   color: white;
   transform: translateY(-2px);
   cursor: default;
 }
 
 /* Footer */
+
 footer {
   text-align: center;
   margin-top: 2rem;
@@ -154,6 +158,7 @@ footer {
 }
 
 /* ===== RESPONSIVE ===== */
+
 @media (max-width: 600px) {
   .container {
     padding: 1.2rem;
@@ -183,6 +188,7 @@ footer {
   }
 
   /* Grid más compacto en móvil */
+
   .techs {
     grid-template-columns: repeat(auto-fill, minmax(85px, auto));
     gap: 0.5rem;
@@ -195,6 +201,7 @@ footer {
 }
 
 /* Para pantallas muy pequeñas */
+
 @media (max-width: 480px) {
   .techs {
     grid-template-columns: repeat(2, 1fr);
