@@ -52,4 +52,10 @@ function actualizarHora() {
     let horaBonita = horas + ":" + minutos + ":" + segundos;
 }
 
+    const boton = document.getElementById("modoOscuro");
+
+    boton.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+});
+
 setInterval(actualizarHora, 1000);
