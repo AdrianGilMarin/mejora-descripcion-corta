@@ -51,5 +51,10 @@ function actualizarHora() {
     // Formatear la hora: "14:35:22"
     let horaBonita = horas + ":" + minutos + ":" + segundos;
 }
+    // Página Modo Oscuro
+    const boton = document.getElementById("modoOscuro");
 
+    boton.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+    });
 setInterval(actualizarHora, 1000);
