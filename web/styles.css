@@ -55,6 +55,7 @@ body {
 }
 
 /* Header con foto de perfil */
+
 .header {
   text-align: center;
   margin-bottom: 2rem;
@@ -63,6 +64,7 @@ body {
 }
 
 /* Foto de perfil - círculo */
+
 .perfil-img {
   width: 120px;
   height: 120px;
